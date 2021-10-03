@@ -19,10 +19,10 @@ Link to your `Digital-electronics-2` GitHub repository:
 
 | **b** | **a** |**b or a** | **b and a** | **b xor a** | **not b** |
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| 0 | 0 |  |  |  |  |
-| 0 | 1 |  |  |  |  |
-| 1 | 0 |  |  |  |  |
-| 1 | 1 |  |  |  |  |
+| 0 | 0 | 0 | 0 | 0 | 1 |
+| 0 | 1 | 1 | 0 | 1 | 1 |
+| 1 | 0 | 1 | 0 | 1 | 0 |
+| 1 | 1 | 1 | 1 | 0 | 0 |
 
 
 ### Morse code
@@ -47,6 +47,21 @@ int main(void)
         _delay_ms(SHORT_DELAY);
 
         // WRITE YOUR CODE HERE
+        PORTB = PORTB ^(1<<LED_GREEN);
+        
+        _delay_ms(SHORT_DELAY);
+        
+        PORTB = PORTB & ~(1<<LED_GREEN);
+        
+        _delay_ms(SHORT_DELAY);
+        
+         PORTB = PORTB ^(1<<LED_GREEN);
+        
+        _delay_ms(SHORT_DELAY*2);
+        
+        PORTB = PORTB & ~(1<<LED_GREEN);
+        
+        _delay_ms(SHORT_DELAY);
     }
 
     // Will never reach this

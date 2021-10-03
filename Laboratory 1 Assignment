@@ -2,18 +2,18 @@
 
 Link to your `Digital-electronics-2` GitHub repository:
 
-   [https://github.com/...](https://github.com/...)
+   https://github.com/CristeaValentin/Digital-electronics-2
 
 
 ### Blink example
 
 1. What is the meaning of the following binary operators in C?
-   * `|`
-   * `&`
-   * `^`
-   * `~`
-   * `<<`
-   * `>>`
+   * `|` - OR
+   * `&` - AND
+   * `^` - XOR
+   * `~` - NOT
+   * `<<` - Left shift
+   * `>>` - Right shift
 
 2. Complete truth table with operators: `|`, `&`, `^`, `~`
 

@@ -31,9 +31,9 @@ Link to your `Digital-electronics-2` GitHub repository:
 /* First we set the LEDs ports as output ports
 after that we make one low and one high*/
 GPIO_config_output(&DDRB, LED1);
-GPIO_write_low(&PORTB, LED2);
+GPIO_write_low(&PORTB, LED1);
 
- GPIO_config_output(&DDRC, LED1);
+ GPIO_config_output(&DDRC, LED2);
  GPIO_write_high(&PORTC, LED2);
 //Here we have configured the button.
  GPIO_config_input_pullup(&DDRD, BUTTON);

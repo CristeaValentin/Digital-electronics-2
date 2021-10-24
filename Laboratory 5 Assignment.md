@@ -32,11 +32,11 @@ ISR(TIMER1_OVF_vect)
     static uint8_t val0=0,val1=0;
     
     val++;
-    if(val0==10) //after it reaches 10, it goes back to 0 and increments the tens
+    if(val0==10) //after it reaches 10, it resets to 0 and increments the tens of seconds
         {val0=0;
         val1++;
         }
-    if(val1==6)  
+    if(val1==6)  //it increments the tens of seconds until they reach 6
         val1=0;      
 }
 ```

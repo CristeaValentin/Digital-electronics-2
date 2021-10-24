@@ -22,28 +22,40 @@ together and the common anode has all the anodes of the 7-segments connected tog
 2. Code listing with syntax highlighting of two interrupt service routines (`TIMER1_OVF_vect`, `TIMER0_OVF_vect`) from counter application with at least two digits, ie. values from 00 to 59:
 
 ```c
-/**********************************************************************
+/************************
  * Function: Timer/Counter1 overflow interrupt
  * Purpose:  Increment counter value from 00 to 59.
- **********************************************************************/
+ ************************/
 ISR(TIMER1_OVF_vect)
-{
+{   
     // WRITE YOUR CODE HERE
-
+    static uint8_t val0=0,val1=0;
+    
+    val++;
+    if(val0==10) //after it reaches 10, it goes back to 0 and increments the tens
+        {val0=0;
+        val1++;
+        }
+    if(val1==6)  
+        val1=0;      
 }
 ```
 
 ```c
-/**********************************************************************
+/************************
  * Function: Timer/Counter0 overflow interrupt
  * Purpose:  Display tens and units of a counter at SSD.
- **********************************************************************/
+ ************************/
 ISR(TIMER0_OVF_vect)
 {
-    static uint8_t pos = 0;
-
-    // WRITE YOUR CODE HERE
-
+    static uint8_t pos = 0; 
+    pos++;
+    if(pos!=0){
+        pos=0;
+        SEG_update_shift_regs(val0,pos); 
+    }
+    else
+        SEG_update_shift_regs(val1,pos);
 }
 ```
 

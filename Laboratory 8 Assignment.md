@@ -14,6 +14,8 @@ https://github.com/CristeaValentin/Digital-electronics-2/blob/main/Laboratory%20
    * SPI pins
    * external interrupt pins INT0, INT1
 
+The picture below has a color coded legend which explains the colored dots on the drawing
+
    ![your figure](lab8fig1.png)
 
 ### I2C
@@ -83,4 +85,4 @@ Consider an application for temperature and humidity measurement and display. Us
 
 1. FSM state diagram picture of meteo station. The image can be drawn on a computer or by hand. Concise name of individual states and describe the transitions between them.
 
-   ![your figure]()
+   ![your figure](lab8fig2.jpeg)

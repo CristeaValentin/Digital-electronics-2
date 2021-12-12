@@ -1,4 +1,4 @@
-# GREENHOUSE MONITORING AND CONTROL SYSTEM
+# GREENHOUSE MONITORING AND CONTROL SYSTEM <br />"THE AUTOGARDENER 3000 👨‍🌾✂️🌳"
 
 ### Team members
 
@@ -24,11 +24,7 @@ https://github.com/CristeaValentin/Digital-electronics-2/edit/main/Project.md
 
 ## Project objectives
 
-Our project aims to provide the user with a way to automate the daily routine of wattering the plants and assuring the best conditions for them to grow. Our greenhouse monitoring and control system gathers information from his sensors (temperature, air humiity, soil humidity, light intensity) and actuates the devices that provide the plants the best conditions possible for their growth.
-
-You can see our circuit design below:
-
-![Project Circuit](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/projectcircuit.png)
+Our project aims to provide the user with a way to automate the daily routine of wattering the plants and ensuring the best conditions for them to grow. Our greenhouse monitoring and control system gathers information from his sensors (temperature, air humiity, soil humidity, light intensity) and actuates the devices that provide the plants the best conditions possible for their growth.
 
 You can see below our block diagram:
 
@@ -37,20 +33,6 @@ You can see below our block diagram:
 You can see below our state diagram:
 
 ![Diagram2](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart1.png)
-
-In depth temperature sensor functionality:
-
-![TempDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart3.png)
-
-In depth soil humidity sensor functionality:
-
-![SoilDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart4.png)
-
-In depth light intensity sensor functionality:
-
-![LightDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart5.png)
-
-
 
 <a name="hardware"></a>
 
@@ -88,7 +70,22 @@ In depth light intensity sensor functionality:
 
 ## Main application
 
-Write your text here.
+You can see our circuit design below:
+
+![Project Circuit](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/projectcircuit.png)
+
+Let us take a look at the functionaliti of our sensors and actuators.
+Below we can see an in depth diagram of the temperature sensor's functionality.
+
+![TempDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart3.png)
+
+Below we can see an in depth diagram of the humidity sensor's functionality:
+
+![SoilDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart4.png)
+
+Below we can see an in depth diagram of the light intensity sensor's functionality:
+
+![LightDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart5.png)
 
 <a name="video"></a>
 

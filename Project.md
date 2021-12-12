@@ -30,7 +30,7 @@ You can see below our block diagram:
 
 ![Main Diagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart2.png)
 
-You can see below our state diagram:
+You can see below our flowchart diagram for each function:
 
 ![Diagram2](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart1.png)
 
@@ -74,7 +74,7 @@ You can see our circuit design below:
 
 ![Project Circuit](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/projectcircuit1.png)
 
-Let us take a look at the functionaliti of our sensors and actuators.
+Let us take a look at the functionality of our sensors and actuators.
 Below we can see an in depth diagram of the temperature sensor's functionality.
 
 ![TempDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart3.png)

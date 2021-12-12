@@ -33,33 +33,33 @@ Here you can find the flowchart of our program:
 
 ## Hardware description
 
-**ATMEGA328P** - is a high performance, low power controller from Microchip. ATMEGA328P is an 8-bit microcontroller based on AVR RISC architecture. It is the most popular of all AVR controllers as it is used in ARDUINO boards.
+**1. ATMEGA328P** - is a high performance, low power controller from Microchip. ATMEGA328P is an 8-bit microcontroller based on AVR RISC architecture. It is the most popular of all AVR controllers as it is used in ARDUINO boards.
 
-**Sensors:**
-<br /><br />- Temperatude and humidity sensor - we use I²C connection protocol to write and read the informations from the sensor.
-<br />- Soil humidity sensor - we use I²C connection protocol to write and read the informations from the sensor.
-<br />- Light intensity sensor - we use an analog system consisting of a fotoresistor in a voltage divider and we interpret the voltage obtained as light intensity levels
+**2. Sensors:**
+* Temperatude and humidity sensor - we use I²C connection protocol to write and read the informations from the sensor.
+* Soil humidity sensor - we use I²C connection protocol to write and read the informations from the sensor.
+* Light intensity sensor - we use an analog system consisting of a fotoresistor in a voltage divider and we interpret the voltage obtained as light intensity levels
 
-**Actuators:**
-<br /><br />- Relay with DC fan (to control the temperature)
-<br />- Relay with Irrigation Pump (to control the soil humidity)
-<br />- Relay with Window opener (to control the temperature)
-<br />- Relay with Lightbulb (to control the light)
+**3. Actuators:**
+* Relay with DC fan (to control the temperature)
+* Relay with Irrigation Pump (to control the soil humidity)
+* Relay with Window opener (to control the temperature)
+* Relay with Lightbulb (to control the light)
 
-**Other Components:**
-<br /><br />- LCD Display (HD44780) - used to display information about temperature and air humidity
-<br />- 2x 10kΩ resistors, 4x 800Ω resistors
-<br />- 4x LEDs to indicate presence of current through the devices
-<br />- 24 Volt rail (can be made by two 12V batteries in series)
+**4. Other Components:**
+* LCD Display (HD44780) - used to display information about temperature and air humidity
+* 2x 10kΩ resistors, 4x 800Ω resistors
+* 4x LEDs to indicate presence of current through the devices
+* 24 Volt rail (can be made by two 12V batteries in series)
 
 <a name="libs"></a>
 
 ## Libraries description
 
-gpio.h: For controlling AVR's gpio pins
-lcd.h: For using the LCD module
-timer.h: For defining timers
-uart.h: For using UART communication
+* gpio.h: For controlling AVR's gpio pins
+* lcd.h: For using the LCD module
+* timer.h: For defining timers
+* uart.h: For using UART communication
 
 <a name="main"></a>
 

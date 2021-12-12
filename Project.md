@@ -26,8 +26,30 @@ https://github.com/CristeaValentin/Digital-electronics-2/edit/main/Project.md
 
 Our project aims to provide the user with a way to automate the daily routine of wattering the plants and assuring the best conditions for them to grow. Our greenhouse monitoring and control system gathers information from his sensors (temperature, air humiity, soil humidity, light intensity) and actuates the devices that provide the plants the best conditions possible for their growth.
 
-Here you can find the flowchart of our program:
-![Test Image 3](Digital-electronics-2/DE2 GREENHOUSE PROJECT/flowchart2.png)
+You can see our circuit design below:
+
+![Project Circuit](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/projectcircuit.png)
+
+You can see below our block diagram:
+
+![Main Diagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart2.png)
+
+You can see below our state diagram:
+
+![Diagram2](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart1.png)
+
+In depth temperature sensor functionality:
+
+![TempDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart3.png)
+
+In depth soil humidity sensor functionality:
+
+![SoilDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart4.png)
+
+In depth light intensity sensor functionality:
+
+![LightDiagram](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/flowchart5.png)
+
 
 
 <a name="hardware"></a>

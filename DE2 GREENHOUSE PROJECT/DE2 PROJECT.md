@@ -8,6 +8,7 @@
 * Radu Balc (responsible for xxx)
 
 Link to this file in your GitHub repository:
+
 https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/DE2%20PROJECT.md
 
 ### Table of contents

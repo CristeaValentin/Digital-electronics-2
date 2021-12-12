@@ -27,6 +27,7 @@ https://github.com/CristeaValentin/Digital-electronics-2/edit/main/Project.md
 Our project aims to provide the user with a way to automate the daily routine of wattering the plants and assuring the best conditions for them to grow. Our greenhouse monitoring and control system gathers information from his sensors (temperature, air humiity, soil humidity, light intensity) and actuates the devices that provide the plants the best conditions possible for their growth.
 
 Here you can find the flowchart of our program:
+![Test Image 3](Digital-electronics-2/DE2 GREENHOUSE PROJECT/flowchart2.png)
 
 
 <a name="hardware"></a>

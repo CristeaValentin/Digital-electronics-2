@@ -72,7 +72,7 @@ You can see below our state diagram:
 
 You can see our circuit design below:
 
-![Project Circuit](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/projectcircuit.png)
+![Project Circuit](https://github.com/CristeaValentin/Digital-electronics-2/blob/main/DE2%20GREENHOUSE%20PROJECT/projectcircuit1.png)
 
 Let us take a look at the functionaliti of our sensors and actuators.
 Below we can see an in depth diagram of the temperature sensor's functionality.
